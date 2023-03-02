@@ -1,0 +1,137 @@
+* {
+    position: static;
+}
+
+.banner {
+    width: 100%;
+}
+
+.bgclass {
+    background-color: white;
+}
+
+.center {
+    align-items: center;
+}
+
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.centralizeItem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rightAlignment {
+    margin-right: 0;
+    margin-left: 45%;
+}
+
+.leftAlignment {
+    margin-left: 3mm;
+    margin-top: 3mm;
+}
+
+.topElevation {
+    margin-bottom: 3mm;
+}
+
+.middleDivFirst {
+    background-color:rgb(246, 246, 246);
+    width: 100%;
+    height: fit-content;
+}
+
+.middleDivSecond {
+    background-color:rgb(255, 244, 228);
+    width: 100%;
+    height: fit-content;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+
+.fontNavbar {
+    font-size:large;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    color: rgb(255, 244, 228);
+    text-decoration: none;
+    transform: translateY(20%);
+}
+
+.inline {
+    display: inline;
+}
+
+.fontNavbar:hover {
+    color: white;
+}
+
+.cardTemplate {
+    width: 18rem;
+}
+
+.cardTemplate:hover {
+    transform: scale(1.2, 1.2);
+    transition-delay: 0.4ms;
+}
+
+.h1Footer {
+        color: rgb(255, 244, 228);
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        text-align: center;
+        margin: auto;
+    
+}
+
+@media (max-width: 1000px) {
+    .cardTemplate {
+        display: inline-block;
+        margin-top: 3%;
+        margin-bottom: 3%;
+    }
+
+    .rightAlignment {
+        margin-right: 0;
+        margin-left: 30%;
+    }
+
+    .cardTemplate{
+        margin-bottom: 10%;
+    }
+
+    .cardTemplate:hover{
+        transform: scale(1.1, 1.1);
+    }
+
+    .fontNavbar:focus {
+        color: white;
+    }
+
+}
